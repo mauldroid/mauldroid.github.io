@@ -9,3 +9,11 @@
 .kiri{
 	margin-left: 100px;
 }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #ccc;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: #999;
+}
