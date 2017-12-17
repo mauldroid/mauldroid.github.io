@@ -33,6 +33,11 @@ ul{
 	height: 50px;
 }
 
+.space100{
+	height: 100px;
+}
+
+
 .kiri{
 	margin-left: 100px;
 }
@@ -49,7 +54,9 @@ ul{
 }
 
 .section-welcome{
-	background: #e6352d;
+	padding-top: 13%;
+	/*padding-bottom: 13%;*/
+	background: #c5282a;
 	color: #fff;
 	font-weight: 100;
 }
@@ -66,28 +73,38 @@ ul{
 	padding: 0px;
 	margin:0px;
 	width: 100%;
-	background: url('../images/top.jpeg');
 	height: 100vh;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	/*background: url('../images/top.jpeg');*/
+	background: #fff;
+	color: #414140;
+	/*background-repeat: no-repeat;*/
+	/*background-position: center center;*/
+	/*background-size: cover;*/
 	/*background-attachment: fixed;*/
 }
 
-.section-top .wrapper-black{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.3);
+.section-top h1{
+	font-size: 28px;
+}
+.section-top p{
+	font-size: 14px;
 }
 
-.section-top .wrapper-black .space-img{
-	height: 35vh;
-}
-
-.section-top .wrapper-black .img-voela{
-	width: 33.33333333%;
+.section-top .img-voela{
 	margin:auto;
-	padding: 10px;
+	padding: 50px 0px;
+}
+.google-play{
+	width: 150px;
+}
+
+.section-food{
+	margin-top: -13.5%;
+	margin-bottom: -13.5%;
+}
+.section-food .img-food-big{
+	width: 50%;
+	height: 50%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -112,29 +129,40 @@ ul{
 
 
 .section-features{
-	background: url('../images/features.jpeg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	color: #fff;
+	/*background: url('../images/features.jpeg');*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center center;*/
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+	background: #fff;
+	font-size: 14px;
+	/*color: #fff;*/
 }
 
-.section-features .wrapper-black{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.1);
+.section-features img{
+	padding: 15px 0px 15px 10px;
+}
+.section-features h3{
+	color: #c5282a;
+	font-size: 14px;
+}
+
+.section-features p{
+	font-size: 12px;
+}
+.section-features .line{
+	border-right: 2px #c5282a solid;
 }
 
 .section-download{
-	background-color: #829b00;
-	color: #fff;
+	background-color: #f8f8f8;
+	color: #414141;
 }
 
 .section-download h3{
 	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 90px;
-	color: #fff;
+	color: #414141;
 }
 
 .section-download .btn-download{
@@ -152,7 +180,7 @@ ul{
 
 .section-partner h3{
 	font-family: 'Cabin Condensed', sans-serif;
-	font-size: 42px;
+	font-size: 62px;
 	color: #414141;
 }
 
@@ -171,7 +199,7 @@ ul{
 }
 
 .social{
-	width: 41.66666667%;
+	width: 25%;
 	margin:auto;
 }
 
@@ -195,8 +223,8 @@ ul{
 }
 
 .icons li {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #c5282a;
+  border: 1px solid #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -208,6 +236,8 @@ ul{
     display: block;
     height: 100%;
     text-align: center; 
+	color: #fff;
+	font-size: 26px;
 }
 .icons li a:before {
       line-height: 73px; 
