@@ -64,6 +64,12 @@ ul{
 .section-welcome h3{
 	font-size: 62px;
 }
+
+@media only screen and (max-width: 500px) {
+    .section-welcome h3{
+		font-size: 42px;
+	}
+}
 .section-welcome h1, .section-welcome h3{
 	color: #fff;
 	font-family: 'Cabin Condensed', sans-serif;
@@ -73,7 +79,7 @@ ul{
 	padding: 0px;
 	margin:0px;
 	width: 100%;
-	height: 100vh;
+	/*height: 100vh;*/
 	/*background: url('../images/top.jpeg');*/
 	background: #fff;
 	color: #414140;
@@ -91,8 +97,18 @@ ul{
 }
 
 .section-top .img-voela{
-	margin:auto;
-	padding: 50px 0px;
+	padding: 50px 15px;
+}
+
+.section-top .intro{
+	text-align: left;
+	padding: 0px 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .section-top .intro{
+		text-align: center;
+	}
 }
 .google-play{
 	width: 150px;
@@ -129,22 +145,34 @@ ul{
 
 
 .section-features{
-	/*background: url('../images/features.jpeg');*/
-	/*background-repeat: no-repeat;*/
-	/*background-position: center center;*/
-	/*background-size: cover;*/
-	/*background-attachment: fixed;*/
-	background: #fff;
+background-color: #fff; /*Default bg, similar to the background's base color*/
+   background-image: url("../images/cumi.png");
+   background-size: 30%;
+   background-position: right bottom; /*Positioning*/
+   background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	/*background: #fff;*/
 	font-size: 14px;
 	/*color: #fff;*/
+	min-height:100vh;
 }
 
 .section-features img{
-	padding: 15px 0px 15px 10px;
+	padding: 0px 0px 10px 10px;
+	width: 90%;
 }
 .section-features h3{
 	color: #c5282a;
 	font-size: 14px;
+}
+
+.section-features .feature{
+	min-height: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+    .section-features .feature{
+		text-align: center;
+	}
 }
 
 .section-features p{
@@ -165,7 +193,7 @@ ul{
 	color: #414141;
 }
 
-.section-download .btn-download{
+.btn-download{
 	margin-top: 30px;
 	background-color: #a0bd00;
 	font: 700 20px/20px "Cabin Condensed", sans-serif;
@@ -211,7 +239,7 @@ ul{
 
 @media only screen and (max-width: 500px) {
     .social{
-		width: 80%;
+		width: 60%;
 		margin:auto;
 	}
 }
