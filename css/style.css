@@ -172,6 +172,7 @@ background-color: #fff; /*Default bg, similar to the background's base color*/
 @media only screen and (max-width: 500px) {
     .section-features .feature{
 		text-align: center;
+		min-height: 350px;
 	}
 }
 
@@ -195,7 +196,7 @@ background-color: #fff; /*Default bg, similar to the background's base color*/
 
 .btn-download{
 	margin-top: 30px;
-	background-color: #a0bd00;
+	background-color: #c62828;
 	font: 700 20px/20px "Cabin Condensed", sans-serif;
 	color: #fff;
 	padding: 27px 27px 24px;
