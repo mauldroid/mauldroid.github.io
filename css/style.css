@@ -137,9 +137,17 @@ ul{
 
 .section-subscribe{
 	background-image: url("../images/subscribe-bg.png");
-	background-size: 100%;
+	background-size: 100% auto;
    	background-position: center center;
    	background-repeat: no-repeat; 
+}
+
+@media only screen and (max-width: 500px) {
+    .section-subscribe{
+		background-size: auto 100%;
+	   	background-position: center center;
+	   	background-repeat: no-repeat; 
+	}
 }
 
 
@@ -168,7 +176,7 @@ ul{
 @media only screen and (max-width: 500px) {
     .section-features .feature{
 		text-align: center;
-		min-height: 350px;
+		min-height: 520px;
 	}
 }
 
