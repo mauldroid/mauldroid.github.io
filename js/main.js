@@ -15,7 +15,7 @@ $(function() {
     	 $.post(host + '/register-vendor',$(this).serialize()).done(function(res){
     		if (res.status === true) {
     			clear_form();
-    			$('#success-registration').css('display','block');
+    			$('#messages').html(success_message());
     		}else{
     			if(res.status_code == 2){
     				$('#messages').html('')
@@ -38,4 +38,10 @@ function clear_form(){
 
 function error_message(message){
 	return "<div class='alert alert-danger' role='alert'>"+message+"</div>"
+}
+
+function success_message(){
+	return "<div class='alert alert-success' role='alert'>\
+				<strong>Berhasil Registrasi,</strong> anda akan segera di hubungi oleh tim kami untuk melakukan proses validasi\
+			</div>";
 }
