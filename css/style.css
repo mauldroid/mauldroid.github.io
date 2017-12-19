@@ -143,6 +143,9 @@ ul{
 	padding: 27px 27px 24px;
 }
 
+.section-subscribe{
+	background: #4d4d4d;
+}
 
 .section-features{
 background-color: #fff; /*Default bg, similar to the background's base color*/
@@ -200,6 +203,13 @@ background-color: #fff; /*Default bg, similar to the background's base color*/
 	font: 700 20px/20px "Cabin Condensed", sans-serif;
 	color: #fff;
 	padding: 27px 27px 24px;
+}
+
+.btn-subscribe{
+	background-color: #c62828;
+	font: 700 20px/20px "Cabin Condensed", sans-serif;
+	color: #fff;
+	padding: 20px 20px 20px;
 }
 
 .section-partner{
@@ -287,7 +297,7 @@ background-color: #fff; /*Default bg, similar to the background's base color*/
 
 
 .section-footer{
-	background: #4d4d4d;
+	background: #363636;
 	color: #fff;
 }
 .section-footer a{
