@@ -1,5 +1,5 @@
 $(function() {
-    host = 'http://voela.test:8000';
+    host = 'http://api.voela.id';
     $.ajaxSetup({
 	    beforeSend: function (xhr)
 	    {
@@ -25,6 +25,19 @@ $(function() {
     			}
     		}
     	});
+    });
+
+    $('#subscribe').click(function(e){
+        e.preventDefault();
+        $.post(host + '/subscribe',{ 'email' : $('#subscribe-email').val() }).done(function(res){
+            if (res.status === true) {
+                $('#subscribe-email').val('');
+                $('#subscribe-success').css('display','block');
+            }else{
+                $('#subscribe-email').val('')
+                $('#subscribe-success').css('display','none');
+            }
+        });
     });
 });
 

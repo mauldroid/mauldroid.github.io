@@ -154,6 +154,11 @@ ul{
 .section-subscribe h3{
 	font-size: 42px;
 }
+
+.section-subscribe .text-success{
+	font-size: 22px;
+}
+
 .section-features{
 	background-color: #fff; 
 	font-family: 'Catamaran', sans-serif;
