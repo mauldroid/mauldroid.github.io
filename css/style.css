@@ -176,12 +176,14 @@ ul{
 
 .section-features .feature{
 	min-height: 220px;
+	padding: 50px 0px 50px 15px;
 }
 
 @media only screen and (max-width: 500px) {
     .section-features .feature{
 		text-align: center;
-		min-height: 520px;
+		min-height: 100px;
+		padding: 25px 5px 25px 5px;
 	}
 }
 
